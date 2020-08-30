@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "fwd-gg-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,9 +18,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.3.1",
-    "morgan": "^1.9.0",
-    "winston": "^3.0.0"
+    "mongoose": "^5.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
