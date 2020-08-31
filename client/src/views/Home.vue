@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/mevn.jpg" width="350" />
-    <HelloWorld msg="Basic Boilerplate Template" />
+    <img alt="Vue logo" src="../assets/mevn.jpg" width="150" />
+    <Main />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Main from "@/components/Main.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
-  }
+    Main,
+  },
 };
 </script>
